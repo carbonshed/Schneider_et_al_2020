@@ -1,18 +1,12 @@
-
-library(here)
-library(ggplot2)
-library(tidyr)
-library(dplyr)
-library(wesanderson)
-library('knitr')
+library(tidyverse)
 library(ggpubr)
-library("ggpubr")
+library(here)
 
 date<- "07182019"
 
 
 # eos1 data
-eos2 <- read.csv(here("FieldData/EosFD",paste0("eos2_",date,".csv")))
+eos2 <- read.csv(here("data/eosFD/eos2_07182019.csv"))
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos2 <- eos2%>%
@@ -39,7 +33,7 @@ date<- "07222019"
 
 
 # eos1 data
-eos2 <- read.csv(here("FieldData/EosFD",paste0("eos2_",date,".csv")))
+eos2 <- read.csv(here("data/eosFD/eos2_07222019.csv"))
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos2 <- eos2%>%
@@ -68,7 +62,7 @@ date<- "07312019"
 
 
 # eos1 data
-eos2 <- read.csv(here("FieldData/EosFD",paste0("eos2_",date,".csv")))
+eos2 <- read.csv(here("data/eosFD/eos2_07312019.csv"))
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos2 <- eos2%>%
@@ -77,7 +71,7 @@ eos2 <- eos2%>%
 colnames(eos2) <- c("DateTime","Flux_eos2","Temp_C_eos2","CO2_Soil_ppm_eos2","CO2_Soil_STD_ppm_eos2",
                     "CO2_ATM_ppm_eos2","CO2_ATM_STD_ppm_eos2","Mode")
 
-eos1 <- read.csv(here("FieldData/EosFD/eos1_FIX_07312019.csv"))
+eos1 <- read.csv(here("data/eosFD/eos1_FIX_07312019.csv"))
 eos1 <- eos1%>%
   select(DateTime,Flux_1,Temp_C_1,CO2_Soil_1,
          CO2_Soil_STD_1,CO2_ATM_1,CO2_ATM_STD_1,Mode_1)
@@ -97,7 +91,7 @@ date<- "08012019"
 
 
 # eos2 data
-eos2 <- read.csv(here("FieldData/EosFD",paste0("eos2_",date,".csv")))
+eos2 <- read.csv(here("data/eosFD/eos2_08012019.csv"))
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos2 <- eos2%>%
@@ -117,7 +111,7 @@ col7.4 <- eos2[2515:2518,]
 col8.4 <- eos2[2520:2523,]
 
 # eos2 data
-eos2 <- read.csv(here("FieldData/EosFD/eos2_08142019.csv"))
+eos2 <- read.csv(here("data/eosFD/eos2_08142019.csv"))
 
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
@@ -137,7 +131,7 @@ col7.5 <- eos2[2800:2803,]
 col8.5 <- eos2[2804:2807,]
 
 # eos2 data
-eos2 <- read.csv(here("FieldData/EosFD/eos2_08142019.csv"))
+eos2 <- read.csv(here("data/eosFD/eos2_08142019.csv"))
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos2 <- eos2%>%
@@ -154,7 +148,7 @@ col5.6 <- eos2[3262:3265,]
 col6.6 <- eos2[3266:3269,]
 col7.6 <- eos2[3270:3273,]
 col8.6 <- eos2[3274:3277,]
-eos1 <- read.csv(here("FieldData/EosFD/eos1_08132019.1.csv"))
+eos1 <- read.csv(here("data/eosFD/eos1_08132019.1.csv"))
 eos1$Year <- paste0("20",eos1$Year)
 eos1$dateTime <- as.POSIXct(as.character(paste0(eos1$Year,"-",eos1$Month,"-",eos1$Day," ",eos1$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos1 <- eos1%>%
@@ -164,7 +158,7 @@ colnames(eos1) <- c("DateTime","Flux_eos1","Temp_C_eos1","CO2_Soil_ppm_eos1","CO
                     "CO2_ATM_ppm_eos1","CO2_ATM_STD_ppm_eos1","Mode")
 eos1$Flux_eos1 <- as.numeric(as.character(eos1$Flux_eos1))
 
-eos2 <- read.csv(here("FieldData/EosFD/eos2_08142019.csv"))
+eos2 <- read.csv(here("data/eosFD/eos2_08142019.csv"))
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos2 <- eos2%>%
@@ -211,7 +205,7 @@ p <- ggplot(df, aes(x=sat, y=avg)) +
 p
 
 
-synoptics <- read.csv(here("FieldData/EosFD/All_Synoptic_Flux_Data.csv"))
+synoptics <- read.csv(here("data/eosFD/All_Synoptic_Flux_Data.csv"))
 synoptics <- data.frame(synoptics)
 synoptics
 flux1 <- data.frame(c(synoptics[1:23,]$Flux, synoptics[1:19,]$Flux.1, synoptics[1:24,]$Flux.2, synoptics[1:24,]$Flux.3, synoptics[1:24,]$Flux.4))
@@ -243,7 +237,7 @@ labs(x= "Landscape Position", y=expression(bold(CO["2"]~Flux~'[umol'/~m^2~s~']')
   scale_x_discrete(labels=c("Upper Reach", "Lower Reach", "Unsaturated Terrestrial", "Saturated Terrestrial"))+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) 
 p
-eos2 <- read.csv(here("FieldData/EosFD/eos2_08142019.csv"))
+eos2 <- read.csv(here("data/eosFD/eos2_08142019.csv"))
 eos2$Year <- paste0("20",eos2$Year)
 eos2$dateTime <- as.POSIXct(as.character(paste0(eos2$Year,"-",eos2$Month,"-",eos2$Day," ",eos2$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos2 <- eos2%>%
@@ -252,7 +246,7 @@ colnames(eos2) <- c("DateTime","Flux_eos2")
 eos2$Flux_eos2 <- as.numeric(as.character(eos2$Flux_eos2))
 
 
-eos1 <- read.csv(here("FieldData/EosFD/eos1_08132019.1.csv"))
+eos1 <- read.csv(here("data/eosFD/eos1_08132019.1.csv"))
 eos1$Year <- paste0("20",eos1$Year)
 eos1$dateTime <- as.POSIXct(as.character(paste0(eos1$Year,"-",eos1$Month,"-",eos1$Day," ",eos1$Time)), format = "%Y-%m-%d %H:%M:%OS")
 eos1 <- eos1%>%
@@ -280,7 +274,17 @@ landwater <- ggplot() + geom_point(data = land, aes(x= DateTime, y= Flux_eos2), 
 landwater
 
 
-landwater <- ggplot() + geom_line(data = land, aes(x= DateTime, y= Flux_eos2), color = "green", size = 1) +
-  geom_line(data = water, aes(x=DateTime, y= Flux_eos1), color = "blue", size = 1) + labs(x = "Date",y=expression(bold(Flux~'[umol'/~m^2~s^1~']')))+ theme_bw(base_size = 18)
+#landwater <- ggplot() + geom_line(data = land, aes(x= DateTime, y= Flux_eos2), color = "green", size = 1) +
+#  geom_line(data = water, aes(x=DateTime, y= Flux_eos1), color = "blue", size = 1) + labs(x = "Date",y=expression(bold(Flux~'[umol'/~m^2~s^1~']')))+ theme_bw(base_size = 18)
 
+#landwater
+
+# Save a copy to the figures folder
+
+pdf(here("figures/figure_05a.pdf"),width = 8, height = 5)
+p
+dev.off()
+
+pdf(here("figures/figure_05b.pdf"),width = 8, height = 5)
 landwater
+dev.off()
