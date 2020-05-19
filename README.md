@@ -36,27 +36,30 @@ This repository serves to host data and analyses used in the research supporting
   | Date | date of collection |
   | Flux | Carbon dioxide flux (umole per m^2 per sec) |
   | Distance From 35 | distance from the outlet of the wetland (meters) | 
-  | Syn7-18 | synoptic site number and collection date, July 18th | 
-  | Syn7-25 | synoptic site number and collection date, July 25th | 
-  | Syn7-31 | synoptic site number and collection date, July 31th | 
-  | Syn8-6 | synoptic site number and collection date, August 6th | 
-  | Syn8-12 | synoptic site number and collection date, August 12th | 
+  | Syn7-18 | synoptic site number, collection date July 18th | 
+  | Syn7-25 | synoptic site number, collection date July 25th | 
+  | Syn7-31 | synoptic site number, collection date July 31th | 
+  | Syn8-6 | synoptic site number, collection date August 6th | 
+  | Syn8-12 | synoptic site number, collection date August 12th | 
 
   
   **File: "eos1_08132019.1.csv"**    
   *this data is used to create figure*  
-  *headings:*  
-  * Month  
-  * Day	 
-  * Year	 
-  * Time	 
-  * Flux	 
-  * Temperature (C)	 
-  * CO2 Soil (ppm)	 
-  * CO2 Soil STD (ppm)  
-  * CO2 ATM (ppm)	 
-  * CO2 ATM STD (ppm)	 
-  * Mode  
+| Header | Description |
+  | :---: | :---------- |
+  | Month | Month of collection |
+  | Day | Day of collection |
+  | Year | Year of collection |
+  | Time | Time of collection |
+  | Flux | Carbon dioxide flux (umole per m^2 per sec) |
+  | Temperature (C) | Water temerature (celcius) | 
+  | CO2 Soil (ppm) | Partial pressure of carbon dioxide in soil (ppm) | 
+  | CO2 Soil STD (ppm) | standard deviation of carbon dioxide in soil (ppm) | 
+  | CO2 ATM (ppm) | what? | 
+  | CO2 ATM STD (ppm) | what? | 
+  | Mode | what? | 
+	 	 
+   
   **File: "eos1_FIX_07312019.csv**
   	DateTime	Flux_1	Temp_C_1	CO2_Soil_1	CO2_Soil_STD_1	CO2_ATM_1	CO2_ATM_STD_1	Mode_1
 
