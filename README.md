@@ -118,10 +118,10 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | Time | Time of collection |
   | Flux | Carbon dioxide flux (umole per m^2 per sec) |
   | Temperature (C) | soil temerature (celcius) | 
-  | CO2 Soil (ppm) | Partial pressure of carbon dioxide in soil (ppm) | 
-  | CO2 Soil STD (ppm) | standard deviation of carbon dioxide in soil (ppm) | 
-  | CO2 ATM (ppm) | what? | 
-  | CO2 ATM STD (ppm) | what? | 
+  | CO2 Soil (ppm) | Partial pressure of carbon dioxide in soil / water (ppm) | 
+  | CO2 Soil STD (ppm) | standard deviation of carbon dioxide in soil / water (ppm) | 
+  | CO2 ATM (ppm) |Atmospheric CO<sub>2</sub> | 
+  | CO2 ATM STD (ppm) | Standard deviation of atmospheric CO<sub>2</sub> | 
   | Mode | what? | 
 	 	 
    
@@ -131,11 +131,11 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | :---: | :---------- |
   | DateTime | Date and time of collection |
   | Flux_1 | Carbon dioxide flux (umole per m^2 per sec) |
-  | CO2_Soil_1 | Partial pressure of carbon dioxide in soil (ppm) | 
-  | CO2_Soil_STD_1 | standard deviation of carbon dioxide in soil (ppm) | 
-  | CO2_ATM_1 | what? | 
-  | CO2_ATM_STD_1 | what? | 
-  | Mode_1 | what? | 
+  | CO2_Soil_1 | Partial pressure of carbon dioxide in soil / water (ppm) | 
+  | CO2_Soil_STD_1 | standard deviation of carbon dioxide in soil / water (ppm) | 
+  | CO2_ATM_1 | Atmospheric CO<sub>2</sub> | 
+  | CO2_ATM_STD_1 | Standard deviation of atmospheric CO<sub>2</sub> | 
+  | Mode_1 | Mode flag for eosFD | 
 
 **sub folder: "picarro"**  
 **File: "col1statistics.csv"**  
@@ -158,10 +158,6 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | CV | what? | 
   | RelativeStdDev | what? | 
 
-**File: "figure7data.csv"**  
-  *this data was used to create figure 7*
-	Type	Day	CorrectedAverage	StdDev_iCO2
-
 **File: "synoptics.csv"**  
   *this data was used to create figure*
 
@@ -180,15 +176,21 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | :-------: | :--: |:---------- |
 | NA | r code | figure 3 |
 | figure_03.Rmd	| r markdown | figure 3 |
-| figure_03.html | html | figure 3 image? |
+| figure_03.html | html | figure 3 image rendered in html |
 | figure_04.R |	R code | figure 04 |
 | figure_05.R |	R code | figure 04 | 
 | figure_06.R |	R code | figure 07 |
 | figure_07.R |	R code | figure 07 |
-| list() | ? | ? |
   
 ## Points of contact  
 
-Direct questions about the paper to Dr. Diego Riveros-Iregui: diegori@email.unc.edu
+Direct questions about the paper to Dr. Diego Riveros-Iregui: <diegori@email.unc.edu>
 
-Direct questions about the code to Andrew Murray: armurray@live.unc.edu
+Direct questions about the code to:
+
+Andrew Murray: <armurray@live.unc.edu>
+
+or
+
+Kriddie Whitmore: <kriddie@email.unc.edu>
+
