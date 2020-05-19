@@ -36,8 +36,26 @@ This repository serves to host data and analyses used in the research supporting
   * Syn7-31 = synoptic site number and collection date, July 31st  
   * Syn8-6 = synoptic site number and collection date, August 6th  
   * Syn8-12 = = synoptic site number and collection date, August 12th  
+  **File: "eos1_08132019.1.csv"**    
+  *this data is used to create figure*  
+  *headings:*  
+  * Month  
+  * Day	 
+  * Year	 
+  * Time	 
+  * Flux	 
+  * Temperature (C)	 
+  * CO2 Soil (ppm)	 
+  * CO2 Soil STD (ppm)  
+  * CO2 ATM (ppm)	 
+  * CO2 ATM STD (ppm)	 
+  * Mode  
+  **File: "eos1_FIX_07312019.csv**
+  	DateTime	Flux_1	Temp_C_1	CO2_Soil_1	CO2_Soil_STD_1	CO2_ATM_1	CO2_ATM_STD_1	Mode_1
 
- 
+  **File: "
+  Month	Day	Year	Time	Flux	Temperature (C)	CO2 Soil (ppm)	CO2 Soil STD (ppm)	CO2 ATM (ppm)	CO2 ATM STD (ppm)	Mode
+
   
   ## Point of contact  
   ?
