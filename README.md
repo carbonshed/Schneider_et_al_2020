@@ -7,10 +7,13 @@
 This repository serves to host data and analyses used in the research supporting the work in *Carbon Dioxide (CO2) Fluxes from Terrestrial and Aquatic Environments in a Tropical Alpine Catchment*, submitted to *Journal of Geophysical Research - Biogeosciences*.
 
 ## Purpose  
-  To provide access to the data and make analyses reproducible for others. All figured presented in the paper were created in R statistical software. All scripts and data files for creating our figures are provided within this repository. If you have Rstudio installed on your computer, you should be able to 'fork' this repository and run it on your local computer to reproduce the anlayses in this paper without any alterations.
+  To provide access to the data and make analyses reproducible for others. All figures presented in the paper were created using R statistical software. All scripts and data files for creating our figures are provided within this repository. If you have Rstudio installed on your computer, you should be able to 'fork' this repository and run it on your local computer to reproduce the anlayses in this paper without any alterations.
   
-  ## Guide to Folders  
-  ### Data
+## Instructions to run this code
+This code was written and run with R version 3.6.2 and R Studio version 1.2.5001. You can fork or simply download this repository to your local computer and open the project file *Schneider_et_al_2020.Rproj*. We use the [here package](https://github.com/jennybc/here_here) to ensure that the code will run on any computer without having to change any file paths. 
+  
+## Guide to Folders  
+### Data
 **File name: All_Stream_Data.csv**
 | Column Name | Description |
 | :---: | :---------- |
@@ -39,22 +42,22 @@ This repository serves to host data and analyses used in the research supporting
 | DO1_mg.L | Dissolved Oxygen at station 1 (mg/l)  |
 | DO2_mg.L |  Dissolved Oxygen at station 2 (mg/l) |
 | DO4_mg.L |  Dissolved Oxygen at station 4 (mg/l) |
-| ppt24Tot | ?  |
-| ppt48Tot | ?  |
-| ppt72Tot | ?  |
-| lvl_421_m | ?  |
-| lvl_425_m | ?  |
-| lvl_430_m | ?  |
-| lvl_435_m | ?  |
-| lvl_436_m | ?  |
-| lvl_437_m | ?  |
-| lvl_442_m | ?  |
+| ppt24Tot | 24-hour total precipitation [mm]  |
+| ppt48Tot | 48-hour total precipitation [mm] |
+| ppt72Tot | 72-hour total precipitation [mm]  |
+| lvl_421_m | Corrected Water Level- Station 3  in meters |
+| lvl_425_m | Corrected Water Level- Sensor 425 in meters |
+| lvl_430_m | Corrected Water Level- Sensor 430 in meters |
+| lvl_435_m | Corrected Water Level- Sensor 435 in meters |
+| lvl_436_m | Corrected Water Level- Station 1 in meters  |
+| lvl_437_m | Corrected Water Level- Sensor 437 in meters |
+| lvl_442_m | Corrected Water Level- Sensor 442 in meters |
 | stn1_Q | Discharge at station 1 (m^3 per s) |
 | stn2_Q |  Discharge at station 2 (m^3 per s) |
 | stn3_Q |  Discharge at station 3 (m^3 per s) |
 | stn4_Q |  Discharge at station 4 (m^3 per s) |
 | air_pressure_kPa | Air pressure (kPa)  |
-| tempC_421 | ?  |
+| tempC_421 | Water Tempperature [C] at station 3  |
 | V1_adjusted | partial pressure of CO2 adjusted for temperature and pressure at Station 1 (ppm)  |
 | V3_adjusted | partial pressure of CO2 adjusted for temperature and pressure at Station 3 (ppm)  |
 | V4_adjusted | partial pressure of CO2 adjusted for temperature and pressure at Station 4 (ppm) |
@@ -63,12 +66,9 @@ This repository serves to host data and analyses used in the research supporting
 | V2_CO2_mgC.L | mass equivalence of CO2 at Station 2 (mg/l)  |
 | V3_CO2_mgC.L | mass equivalence of CO2 at Station 3 (mg/l) |
 | V4_CO2_mgC.L | mass equivalence of CO2 at Station 4 (mg/l) |
-| Flux_1_cleaned | ?  |
+| Flux_1_cleaned | Instantaneous flux [&#181;mol m<sup>2</sup>s<sup>-1</sup>] between station 1 & 2|
 
-
-
-
-**sub folder: "Viasala"**  
+**sub folder: "Vaisala"**  
   **File: "synoptics2.csv"**  
   *the data in this file is used to create fig ?*  
   
@@ -166,14 +166,14 @@ This repository serves to host data and analyses used in the research supporting
   *this data was used to create figure*
 
 ## figures
-  | File Name | Type |Description |
-  | :-------: | :--: |:---------- |
-  | figure_03.pdf | pdf | Figure 3 |
-  | figure_04.pdf | pdf |Figure 4 |
-  | figure_05a.pdf | pdf |Figure 5a | 
-  | figure_05b.pdf | pdf |Figure 5b | 
-  | figure_06.pdf | pdf |Figure 6 | 
-  | figure_07.pdf | pdf |Figure 7 | 
+| File Name | Type |Description |
+| :-------: | :--: |:---------- |
+| figure_03.pdf | pdf | Figure 3 |
+| figure_04.pdf | pdf |Figure 4 |
+| figure_05a.pdf | pdf |Figure 5a | 
+| figure_05b.pdf | pdf |Figure 5b | 
+| figure_06.pdf | pdf |Figure 6 | 
+| figure_07.pdf | pdf |Figure 7 | 
   
 ## scripts
 | File Name | Type | Description |
@@ -187,5 +187,8 @@ This repository serves to host data and analyses used in the research supporting
 | figure_07.R |	R code | figure 07 |
 | list() | ? | ? |
   
-  ## Point of contact  
-  ?
+## Points of contact  
+
+Direct questions about the paper to Dr. Diego Riveros-Iregui: diegori@email.unc.edu
+
+Direct questions about the code to Andrew Murray: armurray@live.unc.edu
