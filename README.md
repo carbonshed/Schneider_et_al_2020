@@ -26,12 +26,6 @@ This repository serves to host data and analyses used in the research supporting
   | Syn5_080619 | Carbon dioxide partial pressure (ppm) collected on 2019-08-06  |
   | Syn6_081219 | Carbon dioxide partial pressure (ppm) collected on 2019-08-12 |
   
-  | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-  
   
   **sub folder: "EosFD"**  
   **File: "All_Synoptic_Flux_Data.csv"**  
