@@ -19,7 +19,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 *Used in figures 2,4,*
 
 | Column Name | Description |
-| :---: | :---------- |
+| :--- | :---------- |
 | DateTime | Date and Time of collection |
 | Inj | denotes if data was collected during injection of CO<sub>2</sub> gas  |
 | V1 | raw partial pressure of CO<sub>2</sub> at Station 1 (ppm)  |
@@ -77,7 +77,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 *these data are used to create figure 8*  
   
   | Column Name | Description |
-  | :---: | :---------- |
+  | :--- | :---------- |
   | Distance | distance from the outlet of the wetland (meters) |
   | Syn1_071819 | Carbon dioxide partial pressure (ppm) collected on 2019-07-18 |
   | Syn2_072519 | Carbon dioxide partial pressure (ppm) collected on 2019-07-25  |
@@ -92,7 +92,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   *these data are used to create figure *  
   
   | Column Name | Description |
-  | :---: | :---------- |
+  | :--- | :---------- |
   | Eos# | EosFd unit no. |
   | Date | date of collection |
   | Flux | Carbon dioxide flux (umole per m^2 per sec) |
@@ -115,7 +115,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   *these data are used to create figures 3 & 5*  
   
   | Column Name | Description |
-  | :---: | :---------- |
+  | :--- | :---------- |
   | Month | Month of collection |
   | Day | Day of collection |
   | Year | Year of collection |
@@ -132,7 +132,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   **File: "eos1_FIX_07312019.csv**
 *this data was used to create figure* 
   | Column Name | Description |
-  | :---: | :---------- |
+  | :--- | :---------- |
   | DateTime | Date and time of collection |
   | Flux_1 | Carbon dioxide flux (umole per m^2 per sec) |
   | CO2_Soil_1 | Partial pressure of carbon dioxide in soil / water (ppm) | 
@@ -155,7 +155,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   
   	Sample	day	CorrectedAverage	StdDev_iCO2	CV	RelativeStdDev
  | Column Name | Description |
-  | :---: | :---------- |
+  | :--- | :---------- |
   | Sample | what? |
   | day | day of collection |
   | CorrectedAverage | ? | 
@@ -169,7 +169,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 
 ## figures
 | File Name | Type |Description |
-| :-------: | :--: |:---------- |
+| :------- | :--: |:---------- |
 | figure_03.pdf | pdf | Figure 3 |
 | figure_04.pdf | pdf |Figure 4 |
 | figure_05a.pdf | pdf |Figure 5a | 
@@ -179,7 +179,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   
 ## scripts
 | File Name | Type | Description |
-| :-------: | :--: |:---------- |
+| :------- | :--: |:---------- |
 | NA | r code | figure 3 |
 | figure_03.Rmd	| r markdown | figure 3 |
 | figure_03.html | html | figure 3 image rendered in html |
