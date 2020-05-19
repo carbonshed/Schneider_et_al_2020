@@ -47,13 +47,13 @@ This repository serves to host data and analyses used in the research supporting
 
   
   **Files:      
-  "eos2_07182019.csv" *CO2 evasion data from soil collected on 2019-07-18 using EosFD no 2*  
-  "eos2_07222019.csv" *CO2 evasion data from soil collected on 2019-07-22 using EosFD no 2*  
-  "eos2_07292019.csv" *CO2 evasion data from soil collected on 2019-07-29 using EosFD no 2*  
-  "eos2_07312019.csv" *CO2 evasion data from soil collected on 2019-07-31 using EosFD no 2*  
-  "eos2_08012019.csv" *CO2 evasion data from soil collected on 2019-08-12 using EosFD no 2*  
-  "eos1_08132019.1.csv" *CO2 evasion data from soil collected on 2019-08-13 using EosFD no 1*  
-  "eos2_08142019.csv" *CO2 evasion data from soil collected on 2019-08-14 using EosFD no 2***   
+  "eos2_07182019.csv"** *CO2 evasion data from soil collected on 2019-07-18 using EosFD no 2*  
+  **"eos2_07222019.csv"** *CO2 evasion data from soil collected on 2019-07-22 using EosFD no 2*  
+  **"eos2_07292019.csv"** *CO2 evasion data from soil collected on 2019-07-29 using EosFD no 2*  
+  **"eos2_07312019.csv"** *CO2 evasion data from soil collected on 2019-07-31 using EosFD no 2*  
+  **"eos2_08012019.csv"** *CO2 evasion data from soil collected on 2019-08-12 using EosFD no 2*  
+  **"eos1_08132019.1.csv"** *CO2 evasion data from soil collected on 2019-08-13 using EosFD no 1*  
+  **"eos2_08142019.csv"** *CO2 evasion data from soil collected on 2019-08-14 using EosFD no 2***   
   *this data was used to create figure*  
   
   | Column Name | Description |
@@ -113,14 +113,26 @@ This repository serves to host data and analyses used in the research supporting
 	Sample	Avg_iCO2	StdDev_iCO2	Correction	CorrectedAverage	Day
 
   ### figures
-   | File Name | Description |
-  | :---: | :---------- |
-  | figure_03.pdf | Figure 3 |
-  | figure_04.pdf | Figure 4 |
-  | figure_05a.pdf | Figure 5a | 
-  | figure_05b.pdf | Figure 5b | 
-  | figure_06.pdf | Figure 6 | 
-  | figure_07.pdf | Figure 7 | 
+  | File Name | Type |Description |
+  | :-------: | :--: |:---------- |
+  | figure_03.pdf | pdf | Figure 3 |
+  | figure_04.pdf | pdf |Figure 4 |
+  | figure_05a.pdf | pdf |Figure 5a | 
+  | figure_05b.pdf | pdf |Figure 5b | 
+  | figure_06.pdf | pdf |Figure 6 | 
+  | figure_07.pdf | pdf |Figure 7 | 
+  
+### scripts
+| File Name | Type | Description |
+| :-------: | :--: |:---------- |
+| NA | r code | figure 3 |
+| figure_03.Rmd	| r markdown | figure 3 |
+| figure_03.html | html | figure 3 image? |
+| figure_04.R |	R code | figure 04 |
+| figure_05.R |	R code | figure 04 | 
+| figure_06.R |	R code | figure 07 |
+| figure_07.R |	R code | figure 07 |
+| list() | ? | ? |
   
   ## Point of contact  
   ?
