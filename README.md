@@ -110,9 +110,8 @@ This repository serves to host data and analyses used in the research supporting
 
 **File: "synoptics.csv"**  
   *this data was used to create figure*
-	Sample	Avg_iCO2	StdDev_iCO2	Correction	CorrectedAverage	Day
 
-  ### figures
+## figures
   | File Name | Type |Description |
   | :-------: | :--: |:---------- |
   | figure_03.pdf | pdf | Figure 3 |
@@ -122,7 +121,7 @@ This repository serves to host data and analyses used in the research supporting
   | figure_06.pdf | pdf |Figure 6 | 
   | figure_07.pdf | pdf |Figure 7 | 
   
-### scripts
+## scripts
 | File Name | Type | Description |
 | :-------: | :--: |:---------- |
 | NA | r code | figure 3 |
