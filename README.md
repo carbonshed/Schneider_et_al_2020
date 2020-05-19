@@ -53,7 +53,7 @@ This repository serves to host data and analyses used in the research supporting
   **"eos2_07312019.csv"** *CO2 evasion data from soil collected on 2019-07-31 using EosFD no 2*  
   **"eos2_08012019.csv"** *CO2 evasion data from soil collected on 2019-08-12 using EosFD no 2*  
   **"eos1_08132019.1.csv"** *CO2 evasion data from soil collected on 2019-08-13 using EosFD no 1*  
-  **"eos2_08142019.csv"** *CO2 evasion data from soil collected on 2019-08-14 using EosFD no 2***   
+  **"eos2_08142019.csv"** *CO2 evasion data from soil collected on 2019-08-14 using EosFD no 2*   
   *this data was used to create figure*  
   
   | Column Name | Description |
