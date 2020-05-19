@@ -7,7 +7,7 @@
 This repository serves to host data and analyses used in the research supporting the work in *Carbon Dioxide (CO2) Fluxes from Terrestrial and Aquatic Environments in a Tropical Alpine Catchment*, submitted to *Journal of Geophysical Research - Biogeosciences*.
 
 ## Purpose  
-  To provide access to the data and Rscripts used to create figures in publication  
+  To provide access to the data and make analyses reproducible for others. All figured presented in the paper were created in R statistical software. All scripts and data files for creating our figures are provided within this repository. If you have Rstudio installed on your computer, you should be able to 'fork' this repository and run it on your local computer to reproduce the anlayses in this paper without any alterations.
   
   ## Guide to Folders  
   ### Data
@@ -22,26 +22,17 @@ This repository serves to host data and analyses used in the research supporting
 | V4 | raw partial pressure of CO2 at Station 4 (ppm)  |
 | Turbidity_NTU | Turbidity (NTU)  |
 | Phycocyanin_ppb | Chlorophylla (ug.L)  |
-| CDOM_ppb | ?  |
+| CDOM_ppb | Colored Dissolved Organic Matter [parts per billion] |
 | Flux_1 | Carbon dioxide flux, unit no 1 (umole per m^2 per sec)  |
-| Temp_C_1 | ?  |
-| CO2_Soil_1 | ?  |
-| CO2_Soil_STD_1 | ?  |
-| CO2_ATM_1 | ?  |
-| CO2_ATM_STD_1 | ?  |
+| Temp_C_1 | Temperature [Celsius] at station 1 |
 | Flux_2 | Carbon dioxide flux, unit no 2 (umole per m^2 per sec)  |
-| Temp_C_2 | ?  |
-| CO2_Soil_2 | ?  |
-| CO2_ATM_2 | ?  |
-| CO2_ATM_STD_2 | ?  |
-| Mode_2 | ?  |
-| ppt_mm | percipitation (mm)  |
-| tempC_425 | ?  |
-| tempC_430 | ?  |
-| tempC_435 | ?  |
-| tempC_436 | ?  |
-| tempC_437 | ?  |
-| tempC_442 | ?  |
+| Temp_C_2 | Temperature [Celsius] at station 2 |
+| tempC_425 | Temperature (C) at station:  |
+| tempC_430 | Temperature (C) at station:  |
+| tempC_435 | Temperature (C) at station:  |
+| tempC_436 | Temperature (C) at station:  |
+| tempC_437 | Temperature (C) at station:  |
+| tempC_442 | Temperature (C) at station:  |
 | airTemp_c | Air Temperature (c)  |
 | EC1_uS | conductivity at station 1 (uS) |
 | EC2_uS | conductivity at station 2 (uS) |
