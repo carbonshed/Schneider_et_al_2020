@@ -15,13 +15,16 @@ This repository serves to host data and analyses used in the research supporting
   **sub folder: "Viasala"**  
   **File headings: "synoptics2.csv"**  
   *the data in this file is used to create fig ?*  
-  * Distance = distance from the outlet of the wetland (meters)  
-  * Syn1_071819 = Carbon dioxide partial pressure (ppm) collected on 2019-07-18  
-  * Syn2_072519 = Carbon dioxide partial pressure (ppm) collected on 2019-07-25  
-  * Syn3_072919 = Carbon dioxide partial pressure (ppm) collected on 2019-07-29  
-  * Syn4_073119 = Carbon dioxide partial pressure (ppm) collected on 2019-07-31  
-  * Syn5_080619 = Carbon dioxide partial pressure (ppm) collected on 2019-08-06  
-  * Syn6_081219 = Carbon dioxide partial pressure (ppm) collected on 2019-08-12 
+  * Distance = distance from the outlet of the wetland (meters)
+  
+  |File|Description|
+  |:--:|:----------|
+  | Syn1_071819 | Carbon dioxide partial pressure (ppm)<br>collected on 2019-07-18 |
+  | Syn2_072519 | Carbon dioxide partial pressure (ppm) collected on 2019-07-25  |
+  | Syn3_072919 | Carbon dioxide partial pressure (ppm) collected on 2019-07-29  |
+  | Syn4_073119 | Carbon dioxide partial pressure (ppm) collected on 2019-07-31  |
+  | Syn5_080619 | Carbon dioxide partial pressure (ppm) collected on 2019-08-06  |
+  | Syn6_081219 | Carbon dioxide partial pressure (ppm) collected on 2019-08-12 |
   
   **sub folder: "EosFD"**  
   **File: "All_Synoptic_Flux_Data.csv"**  
