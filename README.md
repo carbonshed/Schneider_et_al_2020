@@ -13,8 +13,10 @@ This repository serves to host data and analyses used in the research supporting
 This code was written and run with R version 3.6.2 and R Studio version 1.2.5001. You can fork or simply download this repository to your local computer and open the project file *Schneider_et_al_2020.Rproj*. We use the [here package](https://github.com/jennybc/here_here) to ensure that the code will run on any computer without having to change any file paths. 
   
 ## Guide to Folders  
+
 ### Data
-**File name: All_Stream_Data.csv**
+
+- File name: **All_Stream_Data.csv**
 
 *Used in figures 2,4,*
 
@@ -71,8 +73,12 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | V4_CO2_mgC.L | mass equivalence of CO<sub>2</sub> at Station 4 (mg/l) |
 | Flux_1_cleaned | Instantaneous flux [&#181;mol m<sup>2</sup>s<sup>-1</sup>] between station 1 & 2|
 
-**sub folder: "Vaisala"**  
-  **File: "synoptics2.csv"**
+
+____________________________________________________________
+
+### **sub folder: "Vaisala"**  
+
+- File: **"synoptics2.csv"**
   
 *these data are used to create figure 8*  
   
@@ -85,11 +91,14 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | Syn4_073119 | Carbon dioxide partial pressure (ppm) collected on 2019-07-31  |
   | Syn5_080619 | Carbon dioxide partial pressure (ppm) collected on 2019-08-06  |
   | Syn6_081219 | Carbon dioxide partial pressure (ppm) collected on 2019-08-12 |
+
+____________________________________________________________  
   
-  
-**sub folder: "EosFD"**  
-  **File: "All_Synoptic_Flux_Data.csv"**  
-  *these data are used to create figure *  
+### **sub folder: "EosFD"**  
+
+- File: **"All_Synoptic_Flux_Data.csv"**  
+
+*these data are used to create figure *  
   
   | Column Name | Description |
   | :--- | :---------- |
@@ -103,9 +112,11 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | Syn8-6 | synoptic site number, collection date August 6th | 
   | Syn8-12 | synoptic site number, collection date August 12th | 
 
+____________________________________________________________
+
   
-  **Files:      
-  "eos2_07182019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-18 using EosFD no 2*  
+- Files:      
+  **"eos2_07182019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-18 using EosFD no 2*  
   **"eos2_07222019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-22 using EosFD no 2*  
   **"eos2_07292019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-29 using EosFD no 2*  
   **"eos2_07312019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-31 using EosFD no 2*  
@@ -128,9 +139,12 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | CO2 ATM STD (ppm) | Standard deviation of atmospheric CO<sub>2</sub> | 
   | Mode | Mode flag for eosFD | 
 	 	 
+____________________________________________________________
    
-  **File: "eos1_FIX_07312019.csv**
-*this data was used to create figure* 
+- File: **"eos1_FIX_07312019.csv**
+
+*these data are used to create figures 3 & 5* 
+
   | Column Name | Description |
   | :--- | :---------- |
   | DateTime | Date and time of collection |
@@ -141,19 +155,23 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | CO2_ATM_STD_1 | Standard deviation of atmospheric CO<sub>2</sub> | 
   | Mode_1 | Mode flag for eosFD | 
 
-**sub folder: "picarro"**  
-**File: "col1statistics.csv"**  
-**File: "col2statistics.csv"**  
-**File: "col3statistics.csv"**  
-**File: "col4statistics.csv"**  
-**File: "col5statistics.csv"**  
-**File: "col6statistics.csv"**  
-**File: "col7statistics.csv"**    
-**File: "col8statistics.csv"**
+____________________________________________________________
+
+### **sub folder: "picarro"**
+
+- File:
+
+**"col1statistics.csv"**  
+**"col2statistics.csv"**  
+**"col3statistics.csv"**  
+**"col4statistics.csv"**  
+**"col5statistics.csv"**  
+**"col6statistics.csv"**  
+**"col7statistics.csv"**    
+**"col8statistics.csv"**
 
 *these data were used to create figure 7*
-  
-  	Sample	day	CorrectedAverage	StdDev_iCO2	CV	RelativeStdDev
+
  | Column Name | Description |
   | :--- | :---------- |
   | Sample | what? |
@@ -162,12 +180,17 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | StdDev_iCO2 | ? | 
   | CV | what? | 
   | RelativeStdDev | what? | 
+  
+____________________________________________________________
 
-**File: "synoptics.csv"**  
+- File: **"synoptics.csv"**  
 
 *these data were used to create figure 6*
 
+____________________________________________________________
+
 ## figures
+
 | File Name | Type |Description |
 | :------- | :--: |:---------- |
 | figure_03.pdf | pdf | Figure 3 |
@@ -176,8 +199,11 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | figure_05b.pdf | pdf |Figure 5b | 
 | figure_06.pdf | pdf |Figure 6 | 
 | figure_07.pdf | pdf |Figure 7 | 
+
+____________________________________________________________
   
 ## scripts
+
 | File Name | Type | Description |
 | :------- | :--: |:---------- |
 | NA | r code | figure 3 |
@@ -187,6 +213,8 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | figure_05.R |	R code | figure 04 | 
 | figure_06.R |	R code | figure 07 |
 | figure_07.R |	R code | figure 07 |
+
+____________________________________________________________
   
 ## Points of contact  
 
