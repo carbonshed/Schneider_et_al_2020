@@ -74,9 +74,9 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | Flux_1_cleaned | Instantaneous flux [&#181;mol m<sup>2</sup>s<sup>-1</sup>] between station 1 & 2|
 
 
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
 
-### **sub folder: "Vaisala"**  
+### sub folder: "Vaisala"
 
 - File: **"synoptics2.csv"**
   
@@ -91,10 +91,10 @@ ____________________________________________________________
   | Syn4_073119 | Carbon dioxide partial pressure (ppm) collected on 2019-07-31  |
   | Syn5_080619 | Carbon dioxide partial pressure (ppm) collected on 2019-08-06  |
   | Syn6_081219 | Carbon dioxide partial pressure (ppm) collected on 2019-08-12 |
-
-____________________________________________________________  
   
-### **sub folder: "EosFD"**  
+<strong>______________________________________________________________________</strong>
+
+### sub folder: "EosFD"
 
 - File: **"All_Synoptic_Flux_Data.csv"**  
 
@@ -112,7 +112,7 @@ ____________________________________________________________
   | Syn8-6 | synoptic site number, collection date August 6th | 
   | Syn8-12 | synoptic site number, collection date August 12th | 
 
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
 
   
 - Files:      
@@ -139,7 +139,7 @@ ____________________________________________________________
   | CO2 ATM STD (ppm) | Standard deviation of atmospheric CO<sub>2</sub> | 
   | Mode | Mode flag for eosFD | 
 	 	 
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
    
 - File: **"eos1_FIX_07312019.csv**
 
@@ -155,9 +155,9 @@ ____________________________________________________________
   | CO2_ATM_STD_1 | Standard deviation of atmospheric CO<sub>2</sub> | 
   | Mode_1 | Mode flag for eosFD | 
 
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
 
-### **sub folder: "picarro"**
+### sub folder: "picarro"
 
 - File:
 
@@ -174,20 +174,20 @@ ____________________________________________________________
 
  | Column Name | Description |
   | :--- | :---------- |
-  | Sample | what? |
+  | Sample | collar number/name |
   | day | day of collection |
-  | CorrectedAverage | ? | 
-  | StdDev_iCO2 | ? | 
-  | CV | what? | 
-  | RelativeStdDev | what? | 
+  | CorrectedAverage | average value for the collar with the linearity correction | 
+  | StdDev_iCO2 | standard deviation of all the values that went into making the average | 
+  | CV | coefficient of variation | 
+  | RelativeStdDev | relative standard deviation | 
   
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
 
 - File: **"synoptics.csv"**  
 
 *these data were used to create figure 6*
 
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
 
 ## figures
 
@@ -200,7 +200,7 @@ ____________________________________________________________
 | figure_06.pdf | pdf |Figure 6 | 
 | figure_07.pdf | pdf |Figure 7 | 
 
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
   
 ## scripts
 
@@ -214,7 +214,7 @@ ____________________________________________________________
 | figure_06.R |	R code | figure 07 |
 | figure_07.R |	R code | figure 07 |
 
-____________________________________________________________
+<strong>______________________________________________________________________</strong>
   
 ## Points of contact  
 
