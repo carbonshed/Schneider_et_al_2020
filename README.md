@@ -18,7 +18,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 
 - File name: **All_Stream_Data.csv**
 
-*Used in figures 2,4,*
+*these data are used to create figures 2 & 4*
 
 | Column Name | Description |
 | :--- | :---------- |
