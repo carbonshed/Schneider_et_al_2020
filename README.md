@@ -43,8 +43,8 @@ This repository serves to host data and analyses used in the research supporting
   | Syn8-12 | synoptic site number, collection date August 12th | 
 
   
-  **Files: 
-  "eos1_08132019.1.csv"
+  **Files:  
+  "eos1_08132019.1.csv"  
   "eos2_07182019.csv"  
   "eos2_07222019.csv"  
   "eos2_07292019.csv"  
