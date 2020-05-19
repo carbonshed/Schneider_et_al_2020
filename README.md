@@ -4,7 +4,7 @@
 *These authors contributed equally to this work. 
 
 
-This repository serves to host data and analyses used in the research supporting the work in *Carbon Dioxide (CO2) Fluxes from Terrestrial and Aquatic Environments in a Tropical Alpine Catchment*, submitted to *Journal of Geophysical Research - Biogeosciences*.
+This repository serves to host data and analyses used in the research supporting the work in *Carbon Dioxide (CO<sub>2</sub>) Fluxes from Terrestrial and Aquatic Environments in a Tropical Alpine Catchment*, submitted to *Journal of Geophysical Research - Biogeosciences*.
 
 ## Purpose  
   To provide access to the data and make analyses reproducible for others. All figures presented in the paper were created using R statistical software. All scripts and data files for creating our figures are provided within this repository. If you have Rstudio installed on your computer, you should be able to 'fork' this repository and run it on your local computer to reproduce the anlayses in this paper without any alterations.
@@ -18,11 +18,11 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | Column Name | Description |
 | :---: | :---------- |
 | DateTime | Date and Time of collection |
-| Inj | denotes if data was collected during injection of CO2 gas  |
-| V1 | raw partial pressure of CO2 at Station 1 (ppm)  |
-| V2 | raw partial pressure of CO2 at Station 2 (ppm)  |
-| V3 | raw partial pressure of CO2 at Station 3 (ppm)  |
-| V4 | raw partial pressure of CO2 at Station 4 (ppm)  |
+| Inj | denotes if data was collected during injection of CO<sub>2</sub> gas  |
+| V1 | raw partial pressure of CO<sub>2</sub> at Station 1 (ppm)  |
+| V2 | raw partial pressure of CO<sub>2</sub> at Station 2 (ppm)  |
+| V3 | raw partial pressure of CO<sub>2</sub> at Station 3 (ppm)  |
+| V4 | raw partial pressure of CO<sub>2</sub> at Station 4 (ppm)  |
 | Turbidity_NTU | Turbidity (NTU)  |
 | Phycocyanin_ppb | Chlorophylla (ug.L)  |
 | CDOM_ppb | Colored Dissolved Organic Matter [parts per billion] |
@@ -52,20 +52,20 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | lvl_436_m | Corrected Water Level- Station 1 in meters  |
 | lvl_437_m | Corrected Water Level- Sensor 437 in meters |
 | lvl_442_m | Corrected Water Level- Sensor 442 in meters |
-| stn1_Q | Discharge at station 1 (m^3 per s) |
-| stn2_Q |  Discharge at station 2 (m^3 per s) |
-| stn3_Q |  Discharge at station 3 (m^3 per s) |
-| stn4_Q |  Discharge at station 4 (m^3 per s) |
+| stn1_Q | Discharge at station 1 (m<sup>3</sup>s<sup>-1</sup>) |
+| stn2_Q |  Discharge at station 2 (m<sup>3</sup>s<sup>-1</sup>) |
+| stn3_Q |  Discharge at station 3 (m<sup>3</sup>s<sup>-1</sup>) |
+| stn4_Q |  Discharge at station 4 (m<sup>3</sup>s<sup>-1</sup>) |
 | air_pressure_kPa | Air pressure (kPa)  |
 | tempC_421 | Water Tempperature [C] at station 3  |
-| V1_adjusted | partial pressure of CO2 adjusted for temperature and pressure at Station 1 (ppm)  |
-| V3_adjusted | partial pressure of CO2 adjusted for temperature and pressure at Station 3 (ppm)  |
-| V4_adjusted | partial pressure of CO2 adjusted for temperature and pressure at Station 4 (ppm) |
-| V2_adjusted | partial pressure of CO2 adjusted for temperature and pressure at Station 2 (ppm) |
-| V1_CO2_mgC.L | mass equivalence of CO2 at Station 1 (mg/l)  |
-| V2_CO2_mgC.L | mass equivalence of CO2 at Station 2 (mg/l)  |
-| V3_CO2_mgC.L | mass equivalence of CO2 at Station 3 (mg/l) |
-| V4_CO2_mgC.L | mass equivalence of CO2 at Station 4 (mg/l) |
+| V1_adjusted | partial pressure of CO<sub>2</sub> adjusted for temperature and pressure at Station 1 (ppm)  |
+| V3_adjusted | partial pressure of CO<sub>2</sub> adjusted for temperature and pressure at Station 3 (ppm)  |
+| V4_adjusted | partial pressure of CO<sub>2</sub> adjusted for temperature and pressure at Station 4 (ppm) |
+| V2_adjusted | partial pressure of CO<sub>2</sub> adjusted for temperature and pressure at Station 2 (ppm) |
+| V1_CO2_mgC.L | mass equivalence of CO<sub>2</sub> at Station 1 (mg/l)  |
+| V2_CO2_mgC.L | mass equivalence of CO<sub>2</sub> at Station 2 (mg/l)  |
+| V3_CO2_mgC.L | mass equivalence of CO<sub>2</sub> at Station 3 (mg/l) |
+| V4_CO2_mgC.L | mass equivalence of CO<sub>2</sub> at Station 4 (mg/l) |
 | Flux_1_cleaned | Instantaneous flux [&#181;mol m<sup>2</sup>s<sup>-1</sup>] between station 1 & 2|
 
 **sub folder: "Vaisala"**  
@@ -101,13 +101,13 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 
   
   **Files:      
-  "eos2_07182019.csv"** *CO2 evasion data from soil collected on 2019-07-18 using EosFD no 2*  
-  **"eos2_07222019.csv"** *CO2 evasion data from soil collected on 2019-07-22 using EosFD no 2*  
-  **"eos2_07292019.csv"** *CO2 evasion data from soil collected on 2019-07-29 using EosFD no 2*  
-  **"eos2_07312019.csv"** *CO2 evasion data from soil collected on 2019-07-31 using EosFD no 2*  
-  **"eos2_08012019.csv"** *CO2 evasion data from soil collected on 2019-08-12 using EosFD no 2*  
-  **"eos1_08132019.1.csv"** *CO2 evasion data from soil collected on 2019-08-13 using EosFD no 1*  
-  **"eos2_08142019.csv"** *CO2 evasion data from soil collected on 2019-08-14 using EosFD no 2*   
+  "eos2_07182019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-18 using EosFD no 2*  
+  **"eos2_07222019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-22 using EosFD no 2*  
+  **"eos2_07292019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-29 using EosFD no 2*  
+  **"eos2_07312019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-07-31 using EosFD no 2*  
+  **"eos2_08012019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-08-12 using EosFD no 2*  
+  **"eos1_08132019.1.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-08-13 using EosFD no 1*  
+  **"eos2_08142019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-08-14 using EosFD no 2*   
   *this data was used to create figure*  
   
   | Column Name | Description |
@@ -184,9 +184,9 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   
 ## Points of contact  
 
-Direct questions about the paper to Dr. Diego Riveros-Iregui: <diegori@email.unc.edu>
+Direct **questions about the paper** to Dr. Diego Riveros-Iregui: <diegori@email.unc.edu>
 
-Direct questions about the code to:
+Direct **questions about the code** to:
 
 Andrew Murray: <armurray@live.unc.edu>
 
