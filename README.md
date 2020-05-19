@@ -12,6 +12,8 @@ This repository serves to host data and analyses used in the research supporting
   ## Guide to Folders  
   ### Data
 **File name: All_Stream_Data.csv**
+DateTime	Inj.x	V1	V2	V3	V4	Turbidity_NTU	Chlorophylla_ug.L	Phycocyanin_ppb	CDOM_ppb	Flux_1	Temp_C_1	CO2_Soil_1	CO2_Soil_STD_1	CO2_ATM_1	CO2_ATM_STD_1	Mode_1	Flux_2	Temp_C_2	CO2_Soil_2	CO2_Soil_STD_2	CO2_ATM_2	CO2_ATM_STD_2	Mode_2	ppt_mm	tempC_425	tempC_430	tempC_435	tempC_436	tempC_437	tempC_442	airTemp_c	EC1_uS	EC2_uS	EC4_uS	DO1_mg.L	DO2_mg.L	DO4_mg.L	ppt24Tot	ppt48Tot	ppt72Tot	lvl_421_m	lvl_425_m	lvl_430_m	lvl_435_m	lvl_436_m	lvl_437_m	lvl_442_m	stn1_Q	stn2_Q	stn3_Q	stn4_Q	air_pressure_kPa	tempC_421	V1_adjusted	V3_adjusted	V4_adjusted	V2_adjusted	V1_CO2_mgC.L	V2_CO2_mgC.L	V3_CO2_mgC.L	V4_CO2_mgC.L	Inj.y	Flux_1_cleaned
+
 
 
 **sub folder: "Viasala"**  
