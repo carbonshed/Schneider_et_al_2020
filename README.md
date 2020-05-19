@@ -18,7 +18,7 @@ This repository serves to host data and analyses used in the research supporting
   * Distance = distance from the outlet of the wetland (meters)
   
   |File|Description|
-  |:--:|:----------|
+  |:---:|:----------|
   | Syn1_071819 | Carbon dioxide partial pressure (ppm)<br>collected on 2019-07-18 |
   | Syn2_072519 | Carbon dioxide partial pressure (ppm) collected on 2019-07-25  |
   | Syn3_072919 | Carbon dioxide partial pressure (ppm) collected on 2019-07-29  |
