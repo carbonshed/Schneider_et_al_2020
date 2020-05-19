@@ -43,9 +43,16 @@ This repository serves to host data and analyses used in the research supporting
   | Syn8-12 | synoptic site number, collection date August 12th | 
 
   
-  **File: "eos1_08132019.1.csv"**    
+  **Files: 
+  "eos1_08132019.1.csv"
+  "eos2_07182019.csv"  
+  "eos2_07222019.csv"  
+  "eos2_07292019.csv"  
+  "eos2_07312019.csv"  
+  "eos2_08012019.csv"  
+  "eos2_08142019.csv"**   
   *this data is used to create figure*  
-| Header | Description |
+  | Header | Description |
   | :---: | :---------- |
   | Month | Month of collection |
   | Day | Day of collection |
@@ -61,10 +68,16 @@ This repository serves to host data and analyses used in the research supporting
 	 	 
    
   **File: "eos1_FIX_07312019.csv**
-  	DateTime	Flux_1	Temp_C_1	CO2_Soil_1	CO2_Soil_STD_1	CO2_ATM_1	CO2_ATM_STD_1	Mode_1
 
-  **File: "
-  Month	Day	Year	Time	Flux	Temperature (C)	CO2 Soil (ppm)	CO2 Soil STD (ppm)	CO2 ATM (ppm)	CO2 ATM STD (ppm)	Mode
+  | Header | Description |
+  | :---: | :---------- |
+  | DateTime | Date and time of collection |
+  | Flux_1 | Carbon dioxide flux (umole per m^2 per sec) |
+  | CO2_Soil_1 | Partial pressure of carbon dioxide in soil (ppm) | 
+  | CO2_Soil_STD_1 | standard deviation of carbon dioxide in soil (ppm) | 
+  | CO2_ATM_1 | what? | 
+  | CO2_ATM_STD_1 | what? | 
+  | Mode_1 | what? | 
 
   
   ## Point of contact  
