@@ -12,7 +12,7 @@ This repository serves to host data and analyses used in the research supporting
   ## Guide to Folders  
   ### Data
   
-  **sub folder: "Viasala"**  
+**sub folder: "Viasala"**  
   **File headings: "synoptics2.csv"**  
   *the data in this file is used to create fig ?*  
   
@@ -27,9 +27,10 @@ This repository serves to host data and analyses used in the research supporting
   | Syn6_081219 | Carbon dioxide partial pressure (ppm) collected on 2019-08-12 |
   
   
-  **sub folder: "EosFD"**  
+**sub folder: "EosFD"**  
   **File: "All_Synoptic_Flux_Data.csv"**  
   *this data is used to create figure*  
+  
   | Header | Description |
   | :---: | :---------- |
   | Eos# | EosFd unit no. |
@@ -43,15 +44,16 @@ This repository serves to host data and analyses used in the research supporting
   | Syn8-12 | synoptic site number, collection date August 12th | 
 
   
-  **Files:  
-  "eos1_08132019.1.csv"  
-  "eos2_07182019.csv"  
-  "eos2_07222019.csv"  
-  "eos2_07292019.csv"  
-  "eos2_07312019.csv"  
-  "eos2_08012019.csv"  
-  "eos2_08142019.csv"**   
+  **Files:      
+  "eos2_07182019.csv" *CO2 evasion data from soil collected on 2019-07-18 using EosFD no 2*  
+  "eos2_07222019.csv" *CO2 evasion data from soil collected on 2019-07-22 using EosFD no 2*  
+  "eos2_07292019.csv" *CO2 evasion data from soil collected on 2019-07-29 using EosFD no 2*  
+  "eos2_07312019.csv" *CO2 evasion data from soil collected on 2019-07-31 using EosFD no 2*  
+  "eos2_08012019.csv" *CO2 evasion data from soil collected on 2019-08-12 using EosFD no 2*
+  "eos1_08132019.1.csv" *CO2 evasion data from soil collected on 2019-08-13 using EosFD no 1*
+  "eos2_08142019.csv" *CO2 evasion data from soil collected on 2019-08-14 using EosFD no 2***   
   *this data is used to create figure*  
+  
   | Header | Description |
   | :---: | :---------- |
   | Month | Month of collection |
@@ -59,7 +61,7 @@ This repository serves to host data and analyses used in the research supporting
   | Year | Year of collection |
   | Time | Time of collection |
   | Flux | Carbon dioxide flux (umole per m^2 per sec) |
-  | Temperature (C) | Water temerature (celcius) | 
+  | Temperature (C) | soil temerature (celcius) | 
   | CO2 Soil (ppm) | Partial pressure of carbon dioxide in soil (ppm) | 
   | CO2 Soil STD (ppm) | standard deviation of carbon dioxide in soil (ppm) | 
   | CO2 ATM (ppm) | what? | 
@@ -79,6 +81,10 @@ This repository serves to host data and analyses used in the research supporting
   | CO2_ATM_STD_1 | what? | 
   | Mode_1 | what? | 
 
-  
+**sub folder: "picarro"**  
+  **File: "col1statistics.csv"** 
+  	Sample	day	CorrectedAverage	StdDev_iCO2	CV	RelativeStdDev
+	
+	
   ## Point of contact  
   ?
