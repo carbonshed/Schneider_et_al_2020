@@ -15,10 +15,10 @@ This repository serves to host data and analyses used in the research supporting
   **sub folder: "Viasala"**  
   **File headings: "synoptics2.csv"**  
   *the data in this file is used to create fig ?*  
-  * Distance = distance from the outlet of the wetland (meters)
   
-  | File | Description |
+  | Header | Description |
   | :---: | :---------- |
+  | Distance | distance from the outlet of the wetland (meters) |
   | Syn1_071819 | Carbon dioxide partial pressure (ppm)<br>collected on 2019-07-18 |
   | Syn2_072519 | Carbon dioxide partial pressure (ppm) collected on 2019-07-25  |
   | Syn3_072919 | Carbon dioxide partial pressure (ppm) collected on 2019-07-29  |
@@ -30,16 +30,19 @@ This repository serves to host data and analyses used in the research supporting
   **sub folder: "EosFD"**  
   **File: "All_Synoptic_Flux_Data.csv"**  
   *this data is used to create figure*  
-  *headings:*  
-  * Syn7-18  
-  * Eos# = EosFd unit
-  * Date = date of collection
-  * Flux = Carbon dioxide flux (umole per m^2 per sec)
-  * Distance From 35  = distance from the outlet of the wetland (meters)  
-  * Syn7-25 = synoptic site number and collection date, July 25th  
-  * Syn7-31 = synoptic site number and collection date, July 31st  
-  * Syn8-6 = synoptic site number and collection date, August 6th  
-  * Syn8-12 = = synoptic site number and collection date, August 12th  
+  | Header | Description |
+  | :---: | :---------- |
+  | Eos# | EosFd unit no. |
+  | Date | date of collection |
+  | Flux | Carbon dioxide flux (umole per m^2 per sec) |
+  | Distance From 35 | distance from the outlet of the wetland (meters) | 
+  | Syn7-18 | synoptic site number and collection date, July 18th | 
+  | Syn7-25 | synoptic site number and collection date, July 25th | 
+  | Syn7-31 | synoptic site number and collection date, July 31th | 
+  | Syn8-6 | synoptic site number and collection date, August 6th | 
+  | Syn8-12 | synoptic site number and collection date, August 12th | 
+
+  
   **File: "eos1_08132019.1.csv"**    
   *this data is used to create figure*  
   *headings:*  
