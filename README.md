@@ -7,7 +7,7 @@
 This repository serves to host data and analyses used in the research supporting the work in *Carbon Dioxide (CO2) Fluxes from Terrestrial and Aquatic Environments in a Tropical Alpine Catchment*, submitted to *Journal of Geophysical Research - Biogeosciences*.
 
 ## Purpose  
-  To provide users access to the data and Rscripts used in to create publication figures  
+  To provide access to the data and Rscripts used to create figures in publication  
   
   ## Guide to Folders  
   ### Data
@@ -23,13 +23,13 @@ This repository serves to host data and analyses used in the research supporting
 | Turbidity_NTU | Turbidity (NTU)  |
 | Phycocyanin_ppb | Chlorophylla (ug.L)  |
 | CDOM_ppb | ?  |
-| Flux_1 | ?  |
+| Flux_1 | Carbon dioxide flux, unit no 1 (umole per m^2 per sec)  |
 | Temp_C_1 | ?  |
 | CO2_Soil_1 | ?  |
 | CO2_Soil_STD_1 | ?  |
 | CO2_ATM_1 | ?  |
 | CO2_ATM_STD_1 | ?  |
-| Flux_2 | ?  |
+| Flux_2 | Carbon dioxide flux, unit no 2 (umole per m^2 per sec)  |
 | Temp_C_2 | ?  |
 | CO2_Soil_2 | ?  |
 | CO2_ATM_2 | ?  |
