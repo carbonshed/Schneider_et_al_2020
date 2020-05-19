@@ -179,7 +179,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | CorrectedAverage | average value for the collar with the linearity correction | 
   | StdDev_iCO2 | standard deviation of all the values that went into making the average | 
   | CV | coefficient of variation | 
-  | RelativeStdDev | relative standard deviation | 
+  | RelativeStdDev | relative standard deviation (%) | 
   
 <strong>______________________________________________________________________</strong>
 
@@ -193,12 +193,14 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 
 | File Name | Type |Description |
 | :------- | :--: |:---------- |
+| figure_02.pdf | pdf | Figure 2 |
 | figure_03.pdf | pdf | Figure 3 |
-| figure_04.pdf | pdf |Figure 4 |
-| figure_05a.pdf | pdf |Figure 5a | 
-| figure_05b.pdf | pdf |Figure 5b | 
-| figure_06.pdf | pdf |Figure 6 | 
-| figure_07.pdf | pdf |Figure 7 | 
+| figure_04.pdf | pdf | Figure 4 |
+| figure_05a.pdf | pdf | Figure 5 a | 
+| figure_05b.pdf | pdf | Figure 5 b | 
+| figure_06.pdf | pdf | Figure 6 | 
+| figure_07.pdf | pdf | Figure 7 | 
+| figure_08.pdf | pdf | Figure 8 | 
 
 <strong>______________________________________________________________________</strong>
   
@@ -206,13 +208,14 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 
 | File Name | Type | Description |
 | :------- | :--: |:---------- |
-| NA | r code | figure 3 |
-| figure_03.Rmd	| r markdown | figure 3 |
+| figure_02.R | R code | figure 3 |
+| figure_03.Rmd	| R markdown | figure 3 |
 | figure_03.html | html | figure 3 image rendered in html |
 | figure_04.R |	R code | figure 04 |
 | figure_05.R |	R code | figure 04 | 
 | figure_06.R |	R code | figure 07 |
 | figure_07.R |	R code | figure 07 |
+| figure_08.R |	R code | figure 08 |
 
 <strong>______________________________________________________________________</strong>
   
