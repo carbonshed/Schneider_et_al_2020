@@ -15,6 +15,9 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 ## Guide to Folders  
 ### Data
 **File name: All_Stream_Data.csv**
+
+*Used in figures 2,4,*
+
 | Column Name | Description |
 | :---: | :---------- |
 | DateTime | Date and Time of collection |
@@ -69,8 +72,9 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 | Flux_1_cleaned | Instantaneous flux [&#181;mol m<sup>2</sup>s<sup>-1</sup>] between station 1 & 2|
 
 **sub folder: "Vaisala"**  
-  **File: "synoptics2.csv"**  
-  *the data in this file is used to create fig ?*  
+  **File: "synoptics2.csv"**
+  
+*these data are used to create figure 8*  
   
   | Column Name | Description |
   | :---: | :---------- |
@@ -85,7 +89,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   
 **sub folder: "EosFD"**  
   **File: "All_Synoptic_Flux_Data.csv"**  
-  *this data is used to create figure*  
+  *these data are used to create figure *  
   
   | Column Name | Description |
   | :---: | :---------- |
@@ -108,7 +112,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   **"eos2_08012019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-08-12 using EosFD no 2*  
   **"eos1_08132019.1.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-08-13 using EosFD no 1*  
   **"eos2_08142019.csv"** *CO<sub>2</sub> evasion data from soil collected on 2019-08-14 using EosFD no 2*   
-  *this data was used to create figure*  
+  *these data are used to create figures 3 & 5*  
   
   | Column Name | Description |
   | :---: | :---------- |
@@ -122,7 +126,7 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | CO2 Soil STD (ppm) | standard deviation of carbon dioxide in soil / water (ppm) | 
   | CO2 ATM (ppm) |Atmospheric CO<sub>2</sub> | 
   | CO2 ATM STD (ppm) | Standard deviation of atmospheric CO<sub>2</sub> | 
-  | Mode | what? | 
+  | Mode | Mode flag for eosFD | 
 	 	 
    
   **File: "eos1_FIX_07312019.csv**
@@ -145,8 +149,9 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
 **File: "col5statistics.csv"**  
 **File: "col6statistics.csv"**  
 **File: "col7statistics.csv"**    
-**File: "col8statistics.csv"**  
-  *this data was used to create figure*
+**File: "col8statistics.csv"**
+
+*these data were used to create figure 7*
   
   	Sample	day	CorrectedAverage	StdDev_iCO2	CV	RelativeStdDev
  | Column Name | Description |
@@ -159,7 +164,8 @@ This code was written and run with R version 3.6.2 and R Studio version 1.2.5001
   | RelativeStdDev | what? | 
 
 **File: "synoptics.csv"**  
-  *this data was used to create figure*
+
+*these data were used to create figure 6*
 
 ## figures
 | File Name | Type |Description |
