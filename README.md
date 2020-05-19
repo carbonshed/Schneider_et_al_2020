@@ -11,12 +11,14 @@ This repository serves to host data and analyses used in the research supporting
   
   ## Guide to Folders  
   ### Data
-  
+**File name: All_Stream_Data.csv**
+
+
 **sub folder: "Viasala"**  
-  **File headings: "synoptics2.csv"**  
+  **File: "synoptics2.csv"**  
   *the data in this file is used to create fig ?*  
   
-  | Header | Description |
+  | Column Name | Description |
   | :---: | :---------- |
   | Distance | distance from the outlet of the wetland (meters) |
   | Syn1_071819 | Carbon dioxide partial pressure (ppm)<br>collected on 2019-07-18 |
@@ -31,7 +33,7 @@ This repository serves to host data and analyses used in the research supporting
   **File: "All_Synoptic_Flux_Data.csv"**  
   *this data is used to create figure*  
   
-  | Header | Description |
+  | Column Name | Description |
   | :---: | :---------- |
   | Eos# | EosFd unit no. |
   | Date | date of collection |
@@ -49,12 +51,12 @@ This repository serves to host data and analyses used in the research supporting
   "eos2_07222019.csv" *CO2 evasion data from soil collected on 2019-07-22 using EosFD no 2*  
   "eos2_07292019.csv" *CO2 evasion data from soil collected on 2019-07-29 using EosFD no 2*  
   "eos2_07312019.csv" *CO2 evasion data from soil collected on 2019-07-31 using EosFD no 2*  
-  "eos2_08012019.csv" *CO2 evasion data from soil collected on 2019-08-12 using EosFD no 2*
-  "eos1_08132019.1.csv" *CO2 evasion data from soil collected on 2019-08-13 using EosFD no 1*
+  "eos2_08012019.csv" *CO2 evasion data from soil collected on 2019-08-12 using EosFD no 2*  
+  "eos1_08132019.1.csv" *CO2 evasion data from soil collected on 2019-08-13 using EosFD no 1*  
   "eos2_08142019.csv" *CO2 evasion data from soil collected on 2019-08-14 using EosFD no 2***   
-  *this data is used to create figure*  
+  *this data was used to create figure*  
   
-  | Header | Description |
+  | Column Name | Description |
   | :---: | :---------- |
   | Month | Month of collection |
   | Day | Day of collection |
@@ -70,8 +72,8 @@ This repository serves to host data and analyses used in the research supporting
 	 	 
    
   **File: "eos1_FIX_07312019.csv**
-
-  | Header | Description |
+*this data was used to create figure* 
+  | Column Name | Description |
   | :---: | :---------- |
   | DateTime | Date and time of collection |
   | Flux_1 | Carbon dioxide flux (umole per m^2 per sec) |
@@ -82,9 +84,43 @@ This repository serves to host data and analyses used in the research supporting
   | Mode_1 | what? | 
 
 **sub folder: "picarro"**  
-  **File: "col1statistics.csv"** 
+**File: "col1statistics.csv"**  
+**File: "col2statistics.csv"**  
+**File: "col3statistics.csv"**  
+**File: "col4statistics.csv"**  
+**File: "col5statistics.csv"**  
+**File: "col6statistics.csv"**  
+**File: "col7statistics.csv"**    
+**File: "col8statistics.csv"**  
+  *this data was used to create figure*
+  
   	Sample	day	CorrectedAverage	StdDev_iCO2	CV	RelativeStdDev
-	
-	
+ | Column Name | Description |
+  | :---: | :---------- |
+  | Sample | what? |
+  | day | day of collection |
+  | CorrectedAverage | ? | 
+  | StdDev_iCO2 | ? | 
+  | CV | what? | 
+  | RelativeStdDev | what? | 
+
+**File: "figure7data.csv"**  
+  *this data was used to create figure 7*
+	Type	Day	CorrectedAverage	StdDev_iCO2
+
+**File: "synoptics.csv"**  
+  *this data was used to create figure*
+	Sample	Avg_iCO2	StdDev_iCO2	Correction	CorrectedAverage	Day
+
+  ### figures
+   | File Name | Description |
+  | :---: | :---------- |
+  | figure_03.pdf | Figure 3 |
+  | figure_04.pdf | Figure 4 |
+  | figure_05a.pdf | Figure 5a | 
+  | figure_05b.pdf | Figure 5b | 
+  | figure_06.pdf | Figure 6 | 
+  | figure_07.pdf | Figure 7 | 
+  
   ## Point of contact  
   ?
